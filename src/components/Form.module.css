@@ -1,0 +1,97 @@
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 15%);
+	width: 40%;
+}
+
+h1 {
+	font-family: 'CookieRun-Regular';
+	letter-spacing: 20px;
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+
+fieldset {
+	font-family: 'CookieRun-Regular';
+	padding: 40px 0 ;
+	border: 5px solid #ff8984;
+	border-radius: 5px;
+}
+
+.form_div {
+	position: relative;
+	/* border: 1px solid red; */
+	width: 100%;
+	padding-bottom: 5%;
+}
+
+/* 전화번호 */
+.form_div2 {
+	position: relative;
+	/* border: 1px solid red; */
+	width: 100%;
+	padding-bottom: 5%;
+}
+
+label {
+	position: absolute;
+	top: -10px;
+	font-size: 20px;
+	color:#005b49;
+}
+
+input {
+	font-family: 'CookieRun-Regular';
+	border: transparent;
+	border-bottom: 1px solid #613211;
+	background-color: #fef8f3;
+	margin-top: 20px;
+	font-size: 17px;
+	width: 50%;
+	text-align: left;
+}
+
+input:focus {
+	outline: none;
+}
+
+input::placeholder {
+	font-family: 'CookieRun-Regular';
+	text-align: left;
+	color: #ddd8cc;
+}
+
+/* 우편번호 */
+.post_number {
+	font-family: 'CookieRun-Regular';
+	border: none;
+	border-radius: 100px;
+	background-color: #ff8984;
+	width: 200px;
+	height: 50px;
+	color: #fef8f3;
+	font-size: 20px;
+}
+
+.post_number:active {
+	background-color: #c35353;
+	color: #fef8f3;
+}
+
+/* submit */
+.submit {
+	background-color: #005b49;
+	border-radius: 100px;
+	width: 15%;
+	height: 45px;
+	color: #fef8f3;
+	text-align: center;
+}
+
+.submit:active {
+	background-color: #ffc0b9;
+	color: #005b49;
+}
